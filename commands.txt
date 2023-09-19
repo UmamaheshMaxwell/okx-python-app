@@ -9,3 +9,13 @@ Activate Env
 Install Packages
 -------------------
 pip install -r  .\requirements.txt
+
+
+Ray Warnings:
+-------------
+Cannot add the project "gcp-training-386807" to ADC as the quota project because the account in ADC
+does not have the "serviceusage.services.use" permission on this project. You might receive a 
+"quota_exceeded" or "API not enabled" error. Run below command to add a quota project.
+
+gcloud auth application-default set-quota-project
+

@@ -1,2 +1,4 @@
 python-okx
 python-dotenv
+ray
+google-api-python-client

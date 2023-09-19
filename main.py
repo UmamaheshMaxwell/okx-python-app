@@ -12,6 +12,7 @@ def getAccountConfig():
 
     # Set the environment flag (0 for production, 1 for demo)
     flag = "0"  # Change this to "0" if you want to connect to the production environment
+    
 
     try:
         # Initialize the account API
@@ -24,3 +25,4 @@ def getAccountConfig():
         print("Error:", str(e))
 
 getAccountConfig()
+
