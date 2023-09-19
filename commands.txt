@@ -1,0 +1,11 @@
+Create Env
+---------------
+python -m virtualenv okx
+
+Activate Env
+--------------
+.\okx\Scripts\activate
+
+Install Packages
+-------------------
+pip install -r  .\requirements.txt
